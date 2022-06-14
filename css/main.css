@@ -106,6 +106,7 @@ body {
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+  background: #080808;
 }
 
 .wrapper {
@@ -114,6 +115,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-flow: row wrap;
+  
 
   
 }
@@ -122,16 +125,29 @@ body {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 0.6em;
+  background-color: #080808;
   height: 300px;
   width: 30%;
   display: flex;
   align-items: center;
   justify-content: center;
+  height: auto;
+ 
 }
 
+.div-1 {
+    border-right: 0.5px solid lightgray;
+}
 
+.div-3{
+    border-left: 0.5px solid lightgray;
+}
+
+p{
+    text-align: center;
+    padding: 20px;
+}
 
 
 /* ==========================================================================
