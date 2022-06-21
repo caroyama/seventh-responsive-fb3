@@ -109,6 +109,24 @@ body {
   background: #080808;
 }
 
+h1{
+    color: white;
+    font-size: 3em;
+}
+
+.description{
+    text-align: left;
+}
+
+p{
+    color: white;
+    
+}
+
+span{
+    font-weight: bold;
+}
+
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
@@ -116,6 +134,8 @@ body {
   align-items: center;
   justify-content: space-between;
   flex-flow: row wrap;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
   
 
   
@@ -125,7 +145,7 @@ body {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
-  font-size: 0.6em;
+  font-size: 1em;
   background-color: #080808;
   height: 300px;
   width: 30%;
@@ -136,19 +156,29 @@ body {
  
 }
 
-.div-1 {
-    border-right: 0.5px solid lightgray;
+.div-1{
+    border-right: 2px solid gray;
+    
 }
 
 .div-3{
-    border-left: 0.5px solid lightgray;
+    border-left: 2px solid gray;
 }
 
 p{
-    text-align: center;
     padding: 20px;
 }
 
+footer{
+    margin-top: 5px;
+ 
+
+}
+
+img{
+    width: 25px;
+    padding: 10px;
+}
 
 /* ==========================================================================
    Helper classes
